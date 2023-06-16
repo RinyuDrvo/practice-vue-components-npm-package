@@ -1,10 +1,15 @@
 {
-  "name": "@RinyuDrvo/practice-vue-components-npm-package",
+  "name": "practice-vue-components-npm-package",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RinyuDrvo/practice-vue-components-npm-package.git"
+  },
+  "main": "dist/practice-vue-components-npm-package.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name practice-vue-components-npm-package ./src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
