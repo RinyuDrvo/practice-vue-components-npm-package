@@ -2,6 +2,8 @@
 
 このプロジェクトは Vue コンポーネントの npm パッケージ化学習用です
 
+https://www.npmjs.com/package/rinyu-drvo-practice-vue-components-npm-package
+
 ## 使い方
 
 ```
