@@ -1,4 +1,4 @@
-# @rinyu-drvo/practice-vue-components-npm-package
+# rinyu-drvo-practice-vue-components-npm-package
 
 このプロジェクトは Vue コンポーネントの npm パッケージ化学習用です
 
