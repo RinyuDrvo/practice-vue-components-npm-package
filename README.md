@@ -1,6 +1,30 @@
-# practice-vue-components-npm-package
+# @rinyu-drvo/practice-vue-components-npm-package
 
 このプロジェクトは Vue コンポーネントの npm パッケージ化学習用です
+
+## 使い方
+
+```
+npm install @rinyu-drvo/practice-vue-components-npm-package
+```
+
+```vue
+<template>
+  <dev>
+    <my-button>button name</my-button>
+  </dev>
+</template>
+
+<script>
+import MyButton from "@rinyu-drvo/practice-vue-components-npm-package";
+
+export default {
+  components: {
+    MyButton,
+  },
+};
+</script>
+```
 
 ## Project setup
 
@@ -8,7 +32,7 @@
 npm install
 ```
 
-## build bundle
+### build bundle
 
 ```
 npm run build-bundle
