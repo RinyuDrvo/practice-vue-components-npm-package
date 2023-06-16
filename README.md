@@ -7,7 +7,7 @@ https://www.npmjs.com/package/rinyu-drvo-practice-vue-components-npm-package
 ## 使い方
 
 ```
-npm install @rinyu-drvo/practice-vue-components-npm-package
+npm install rinyu-drvo-practice-vue-components-npm-package
 ```
 
 ```vue
